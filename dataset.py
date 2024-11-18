@@ -1,7 +1,7 @@
 # import requests
 # import pandas as pd
 
-# API_KEY = "AIzaSyCwl54rVY4Xjk7AgMduiNSgBBHOILK0FJM"
+# API_KEY = "Your google API"
 # OUTPUT_CSV = "books_dataset.csv"
 
 # # Function to fetch data from Google Books API
