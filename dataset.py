@@ -55,10 +55,10 @@
 
 # # XAMPP MySQL connection details
 # db_config = {
-#     "host": "localhost",
-#     "user": "root",
-#     "password": "",
-#     "database": "MIS"
+#     "host": "host",
+#     "user": "username",
+#     "password": "password",
+#     "database": "database"
 # }
 
 # # Path to your CSV file
@@ -77,7 +77,7 @@
 #         # Insert each record
 #         for _, row in dataframe.iterrows():
 #             sql = """
-#             INSERT INTO books (id, title, authors, published_date, publisher, isbn, category, book_cover_image)
+#             INSERT INTO table (id, title, authors, published_date, publisher, isbn, category, book_cover_image)
 #             VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
 #             """
 #             values = (
